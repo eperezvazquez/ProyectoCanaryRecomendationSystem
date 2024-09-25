@@ -7,7 +7,7 @@ from surprise.model_selection import train_test_split
 from surprise import accuracy
 
 # Load the dataset
-df = pd.read_csv('C:/Users/perez/Documents/Tesis_USC/ProjectoFinal_IA_USC/src/Project_elections.csv')
+df = pd.read_csv("Project_elections.csv", engine="python", on_bad_lines='skip')
 df['proy_fecha_crea'] = pd.to_datetime(df['proy_fecha_crea'], errors='coerce')
 
 # Initialize and train the SVD model if not already trained
