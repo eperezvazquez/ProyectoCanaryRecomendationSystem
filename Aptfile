@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+libgomp1  # Necesario para scikit-learn
+g++       # Compilador necesario para pystan y prophet
+=======
+libgomp1  # Necesario para scikit-learn
+g++       # Compilador necesario para pystan y prophet
+>>>>>>> 71d1e92e9ad1887cf02c84a50fdd43905e7801e7

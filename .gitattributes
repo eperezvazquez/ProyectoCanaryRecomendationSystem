@@ -1,0 +1,2 @@
+sp500_stocks.csv filter=lfs diff=lfs merge=lfs -text
+explore.ipynb filter=lfs diff=lfs merge=lfs -text
