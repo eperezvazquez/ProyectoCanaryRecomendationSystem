@@ -62,7 +62,7 @@ Evaluated user feedback and system performance to refine customer satisfaction a
 
 * Neural Network Implementation: Plan to deploy bidirectional neural networks and explore random forest models to enhance predictive accuracy.
 
-* Recommendation System Development: Aim to implement a comprehensive ranking system within the existing recommendation framework to optimize resource allocation and project delivery.
+* Develop a framework to implement IA in an organization.
 
 URL: https://appregresionusc-c67e8d36ff42.herokuapp.com/
 email_heroku: elisa.perez.vazquez@rai.usc.gal
