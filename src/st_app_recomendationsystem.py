@@ -48,7 +48,6 @@ st.sidebar.write("""
 ## Recommendation System
 ### What is a Recommendation System?
 A recommendation system is like a digital assistant that helps you discover things you might like. It looks at your past behavior, preferences, and interactions to suggest new items or content. This could be anything from movies, projects, books, products, music, or even people to connect with.
-In this time the recommendation system RMSE: 0.9583.
                  """)
 
 # Recommending Projects to a User
