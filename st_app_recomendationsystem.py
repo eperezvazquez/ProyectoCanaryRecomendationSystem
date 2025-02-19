@@ -44,11 +44,30 @@ This application allows you to:
 
 # Sidebar Information
 st.sidebar.image('https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/catalogo/iso.png')
+import streamlit as st
+
 st.sidebar.write("""
 ## Recommendation System
 ### What is a Recommendation System?
 A recommendation system is like a digital assistant that helps you discover things you might like. It looks at your past behavior, preferences, and interactions to suggest new items or content. This could be anything from movies, projects, books, products, music, or even people to connect with.
-                 """)
+""")
+
+# Mostrar RMSE
+st.sidebar.write("### RMSE: 0.9583")
+
+# Escala de 0 a 5 en la barra lateral
+st.sidebar.write("### Rating Scale (0-5)")
+rating = st.sidebar.slider("Select Rating", 0.0, 5.0, 3.0, 0.1)
+
+# Indicación visual del nivel de calidad
+if rating > 3:
+    st.sidebar.success(f"Good rating! ({rating})")
+else:
+    st.sidebar.warning(f"Low rating ({rating})")
+
+# Contenido principal
+st.write("# Welcome to the Recommendation System!")
+st.write("Use the sidebar to explore the rating scale.")
 
 # Recommending Projects to a User
 st.header('🔍 Predict Rating for a User and Project')
